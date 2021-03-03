@@ -18,3 +18,4 @@ class User(db.Model):
 class Address(db.Model):
   id = db.Column(db.Integer, primary_key=True)
   city = db.Column(db.String(128))
+  country = db.Column(db.String(128))
